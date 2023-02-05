@@ -73,7 +73,7 @@ def pcl_repositories():
         name = "pcl",
         build_file = "@rules_pcl//third_party:pcl.BUILD",
         sha256 = "b6f6769b84d3d8313e48278388b923e32cf519e6a27a4876c2170d587b33721d",
-        strip_prefix = "pcl-1.13.0",
+        strip_prefix = "pcl-pcl-1.13.0",
         urls = ["https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.13.0.tar.gz"],
     )
 
