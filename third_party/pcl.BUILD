@@ -450,13 +450,13 @@ SURFACE_VTK_HDRS = ["surface/include/pcl/surface/vtk_smoothing/**"]
 pcl_library(
     name = "surface",
     exclude_hdrs =
-        SURFACE_ON_NURBS_HDRS +
+        SURFACE_ON_NURBS_HDRS,
         #SURFACE_QHULL_HDRS +
-        SURFACE_VTK_HDRS,
+        # SURFACE_VTK_HDRS,
     exclude_srcs =
-        SURFACE_ON_NURBS_SRCS +
+        SURFACE_ON_NURBS_SRCS,
         #SURFACE_QHULL_SRCS +
-        SURFACE_VTK_SRCS,
+        # SURFACE_VTK_SRCS,
     deps = [
         ":common",
         ":kdtree",
