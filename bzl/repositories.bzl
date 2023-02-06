@@ -77,6 +77,7 @@ def pcl_repositories():
         urls = ["https://github.com/PointCloudLibrary/pcl/archive/1d3622c1e624994bc013e3e66bc5d98fbb807a89.tar.gz"],
     )
 
+
     maybe(
         http_archive,
         name = "qhull",

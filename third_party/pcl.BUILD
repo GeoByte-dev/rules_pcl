@@ -452,11 +452,11 @@ pcl_library(
     exclude_hdrs =
         SURFACE_ON_NURBS_HDRS,
         #SURFACE_QHULL_HDRS +
-        #SURFACE_VTK_HDRS,
+        # SURFACE_VTK_HDRS,
     exclude_srcs =
         SURFACE_ON_NURBS_SRCS,
         #SURFACE_QHULL_SRCS +
-        #SURFACE_VTK_SRCS,
+        # SURFACE_VTK_SRCS,
     deps = [
         ":common",
         ":kdtree",
